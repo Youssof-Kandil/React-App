@@ -1,0 +1,76 @@
+/* NAV AND FOOTER */
+.navbar{
+   background-color: #2c3e50;
+}
+.nav-link{
+  color: white !important;
+}
+.nav-linkActive{
+  background-color: #1abc9c;
+}
+.footer-start{
+  background-color: #2c3e50;
+  padding: 40px;
+}
+.footer-icons-single{
+  width: 35px;
+  height: 35px;
+}
+.Footer-sec-part{
+  background-color: #1a252f;
+    padding: 10px;
+}
+.size{
+  min-height: calc(100vh - 112px);
+}
+/* HOME PAGE */
+.home, .about{
+  background-color: #1abc9c;  
+  color: white;
+  margin-top: 92px;
+}
+
+.home-img{
+  width: 250px;
+  margin-bottom: 50px;
+}
+.line{
+  width: 80px;
+  height: 4px;
+  background-color: white;
+}
+.home h2{
+  font-weight: bold;
+}
+
+.port , .contact{
+  color: black;
+  margin-top: 92px;
+}
+.port .line , .contact .line{
+  background-color: black;
+}
+.inner-layer{
+  background-color: #1abc9ce6;
+  opacity: 0;
+  cursor: pointer;
+  transition: .6s opacity;
+}
+.colorrr{
+  background-color: #1abc9c;
+}
+.btn:hover{
+  background-color: #1abc9c;
+}
+.inner-item:hover .inner-layer{
+  opacity: 1;
+}
+
+@media (min-width: 1200px){
+.fs-2 {
+    font-size: 2rem!important;
+}
+.fs-1 {
+  font-size: 2.5rem!important;
+}
+}
